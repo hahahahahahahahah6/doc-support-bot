@@ -1,0 +1,8 @@
+[
+  {"question": "How long does shipping take?", "expected_doc": "shipping.md"},
+  {"question": "When do I receive a tracking email?", "expected_doc": "shipping.md"},
+  {"question": "What is the returns policy?", "expected_doc": "returns.md"},
+  {"question": "What does Pro cost?", "expected_doc": "pricing.md"},
+  {"question": "Explain quantum physics", "expected_doc": null},
+  {"question": "Who won the lunar chess tournament?", "expected_doc": null}
+]
