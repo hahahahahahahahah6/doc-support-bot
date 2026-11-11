@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "doc-support-bot"
+version = "0.1.0"
+description = "Document-only support answers with TF-IDF retrieval and citations"
+readme = "README.md"
+requires-python = ">=3.9"
+license = "MIT"
+authors = [{name = "Hao Li"}]
+dependencies = []
+
+[project.scripts]
+doc-support-bot = "doc_support_bot.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["doc_support_bot*"]
